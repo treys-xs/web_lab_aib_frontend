@@ -23,23 +23,23 @@
 ```
 
 ##### окно появляющееся из-за alert(apple)
-![alert_apple](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/alert_apple_zadanie1.PNG)
+![alert_apple](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/1.PNG)
 ##### окно появляющееся из-за alert(conditions)
-![alert_conditions](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/alert_condition_zadanie1.PNG)
+![alert_conditions](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/7.PNG)
 ##### вывод в console
-![console](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/consolelog_zadanie1.PNG)
+![console](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/8.PNG)
 
 #### Вопросы
 1. Через какой оператор Вы объявили переменую? 
 * через оператор let
 2. Какие доступны операторы для объявления переменных? В чём их отличия?
-* let - самый крутой крч 
+* let - актуальный 
 * const - нельзя изменить значение переменной
 * var - устаревший вариант. допускает повторное объявление, не может быть блочной или локальной внутри цикла. переменная var считается объявленной самого начала исполнения функции вне зависимости от того, в каком месте функции реально находятся их объявления (при условии, что она не находится во вложенной функции). поэтому принято их писать в начале кода программы.
 3. Что происходит при вызове alert()?
 * выводится значение переменной в всплывающем окне с просьбой подтвердить действие
 4. Как Вы думаете для чего может использоваться console.log()
-* для того чтобы было легче понть где ошибки, тк если использовать просто alert(), то вывод не фиксируется в консоли. или для другой работы в консоли
+* для того чтобы было легче понять где ошибки, тк если использовать просто alert(), то вывод не фиксируется в консоли. или для другой работы в консоли
 
 ### задание 2 Магия конкатенации
 код
@@ -70,7 +70,7 @@
 </html>
 ```
 ##### вывод в console
-![console_zadanie2](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/consolelog_zadanie2.PNG)
+![console_zadanie2](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/2.PNG)
 
 ### задание 3 работа с массивами
 код
@@ -95,7 +95,7 @@ console.log(array);
 </html>
 ```
 ##### вывод в console
-![console_zadanie3](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/consolelog_zadanie3.PNG)
+![console_zadanie3](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/3.PNG)
 
 ### задание 4 Работа с функциями
 код
@@ -145,7 +145,7 @@ console.log(random_word());
 </html>
 ```
 ##### вывод в console
-![console_zadanie4](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/consolelog_zadanie4.PNG)
+![console_zadanie4](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/4.PNG)
 
 ### задание 5 Работа с объектами
 код
@@ -160,11 +160,11 @@ console.log(random_word());
 <body>
 <script>
  let obect = {};
-    obect.firstName = 'Olga';
-    obect.surname = 'Shepeleva';
-    obect.patronymic = 'Romanovna';
-    obect.birthday = '21.11.2003';
-    obect.hobby = 'sleep';
+    obect.firstName = 'Vladislav';
+    obect.surname = 'Shcherban';
+    obect.patronymic = 'Alexandrovich';
+    obect.birthday = '29.09.2003';
+    obect.hobby = 'play games';
     obect.group = 'АСБ-037';
 obect.get_inform = function () {
     let year = this.birthday.substring(6,10);
@@ -197,6 +197,6 @@ console.log(salary);
 </html>
 ```
 ##### вывод метода get_inform в alert
-![alert_zadanie5](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/alert_zadani5.PNG)
+![alert_zadanie5](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/5.PNG)
 ##### вывод в console
-![console_zadanie5](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/consolelog_zadanie5.PNG)
+![console_zadanie5](https://github.com/treys-xs/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/photo/6.PNG)
